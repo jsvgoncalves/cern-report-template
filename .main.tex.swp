@@ -1,0 +1,26 @@
+\documentclass[oneside,11pt]{extarticle}
+
+% Config
+\usepackage{style}
+
+\begin{document}
+
+% Title page
+
+\input{title}
+\setcounter{page}{2}
+
+% Toc
+\tableofcontents
+\clearpage
+
+% Contents
+\section{Project specification}
+Awesome project specification
+
+% Sources
+\begin{thebibliography}{99}
+\bibitem{CERN} CERN\\ http://cern.ch/
+\end{thebibliography}
+
+\end{document}
